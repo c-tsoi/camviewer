@@ -2279,7 +2279,7 @@ class GraphicUserInterface(QMainWindow):
             self.ui.showexpert.setChecked(False)
 
     def validDisplayFormat(self, rawString):
-        return re.match("^%\d+(\.\d*)?[efg]$", rawString) is not None
+        return re.match(r"^%\d+(\.\d*)?[efg]$", rawString) is not None
 
     def calibPVmon(self, exception=None):
         if exception is None:

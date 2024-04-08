@@ -7,7 +7,6 @@ from PyQt5 import QtCore
 from PyQt5.QtWidgets import (
     QWidget,
     QDialog,
-    QApplication,
     QGridLayout,
     QLabel,
     QLineEdit,
